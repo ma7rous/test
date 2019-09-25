@@ -14,12 +14,12 @@ class Point:
         return Point(self.x-r.x,self.y-r.y)
     
     def __mul__(self,r):
-        #instruction
+        return Point(self.x*r.x,self.y*r.y)
   
     def __eq__(self,r):
-        #instruction
-    
-    
+        return Point(self.x==r.x,self.y==r.y)
+
+        
 p = Point(10,20)
 q = Point(30,40)
 def addPoint(l,r):
