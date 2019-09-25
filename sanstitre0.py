@@ -7,13 +7,18 @@ class Point:
     def __str__(self):
         return f'({self.x},{self.y})'
     
-    def __add__(self,r):
+    def Add(self,r):
         return Point(self.x+r.x,self.y+r.y)    
     
 p = Point(10,20)
 q = Point(30,40)
 def AddPoint(l,r):
     return Point(l.x+r.x, l.y+r.y)
+
+#s = AddPoint(p,q)
+#s = p.Add(q)
+#m = p*a 
+#print(m)    
 #print(p.x,p.y)
 #print(p,str(p))
 
