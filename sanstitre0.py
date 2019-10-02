@@ -22,7 +22,7 @@ class Point:
         
 p = Point(10,20)
 q = Point(30,40)
-#def addPoint(l,r):
+def addPoint(l,r):
     return Point(l.x+r.x, l.y+r.y)
 
 #s = addPoint(p,q)
